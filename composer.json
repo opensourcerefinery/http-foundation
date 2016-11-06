@@ -1,0 +1,17 @@
+{
+    "name": "Open Source Refinery Http Foundation",
+	"description": "",
+    "autoload": {
+		"psr-4": {
+			"OpenSourceRefinery\\HttpFoundation":"src/"
+		}
+	},
+	"scripts-dev": {
+		"post-install-cmd": [
+			"vendor/bin/security-checker security:check"
+		],
+		"post-update-cmd": [
+			"vendor/bin/security-checker security:check"
+		]
+	}
+}

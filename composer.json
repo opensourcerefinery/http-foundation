@@ -1,5 +1,5 @@
 {
-    "name": "Open Source Refinery Http Foundation",
+    "name": "opensourcerefinery/http-foundation",
 	"description": "",
     "autoload": {
 		"psr-4": {

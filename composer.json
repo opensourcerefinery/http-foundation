@@ -3,7 +3,7 @@
 	"description": "",
     "autoload": {
 		"psr-4": {
-			"OpenSourceRefinery\\HttpFoundation":"src/"
+			"OpenSourceRefinery\\HttpFoundation\\":"src/"
 		}
 	},
 	"scripts-dev": {
